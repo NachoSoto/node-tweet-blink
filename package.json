@@ -1,6 +1,6 @@
 {
     "name": "tweet-blink",
-    "version": "0.0.2",
+    "version": "0.0.4",
     "description": "Real time visualization of tweets using blink(1)",
     "main": "index",
     "bin": {
