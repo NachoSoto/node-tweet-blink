@@ -14,6 +14,8 @@ All you need is a configuration file like:
 ```
 where you specify the keywords to track and the colors associated with them.
 
+And then run it: ```$ tweet-blink```
+
 ### Installation:
 - npm install -g tweet-blink
 - Copy ```tweet-blink.json.sample``` to ```~/.tweet-blink.json```
