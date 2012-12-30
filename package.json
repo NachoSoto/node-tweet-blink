@@ -1,5 +1,5 @@
 {
-    "name": "node-tweet-blink",
+    "name": "tweet-blink",
     "version": "0.0.1",
     "description": "Real time visualization of tweets using blink(1)",
     "main": "index.js",
@@ -7,11 +7,21 @@
         "node-blink1": "latest",
         "twit": "latest"
     },
-    "repository": "",
     "keywords": [
         "blink1",
         "twitter"
     ],
-    "author": "Nacho Soto",
-    "license": "MIT"
+    "author": {
+        "nacho": "Nacho Soto"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/NachoSoto/node-tweet-blink.git"
+    },
+    "licenses": {
+        "type": "MIT",
+        "url": "https://github.com/NachoSoto/node-tweet-blink/raw/master/LICENSE"
+    },
+    "readmeFilename": "README.md",
+    "homepage": "https://github.com/NachoSoto/node-tweet-blink.git"
 }
