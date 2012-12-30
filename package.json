@@ -2,22 +2,21 @@
     "name": "tweet-blink",
     "version": "0.0.1",
     "description": "Real time visualization of tweets using blink(1)",
-    "main": "index.js",
+    "main": "index",
+    "bin": {
+        "tweet-blink": "./bin/tweet-blink"
+    },
     "dependencies": {
         "node-blink1": "latest",
         "twit": "latest"
     },
+    "engines": { "node": "*" },
     "keywords": [
         "blink1",
         "twitter"
     ],
-    "author": {
-        "nacho": "Nacho Soto"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/NachoSoto/node-tweet-blink.git"
-    },
+    "author": "Nacho Soto <hello@nachosoto.com>",
+    "repository": "git@github.com:NachoSoto/node-tweet-blink.git",
     "licenses": {
         "type": "MIT",
         "url": "https://github.com/NachoSoto/node-tweet-blink/raw/master/LICENSE"
