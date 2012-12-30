@@ -1,3 +1,7 @@
-#!/bin/bash
+#!/usr/bin/env node
 
-node index ~/.tweet-blink.json
+var tweetBlink = require('../lib/tweet_blink');
+var filePath= (process.env[(process.platform == 'win32') ? 'USERPROFILE' : 'HOME']) + '/' + '.tweet-blink.json';
+
+var config = tweetBlink.readConfiguration(filePath);
+tweetBlink.track(config);
